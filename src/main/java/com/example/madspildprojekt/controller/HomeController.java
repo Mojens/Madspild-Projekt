@@ -7,10 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @Author Mohammad Adel Murtada
  */
 @Controller
-public class Main {
-  public static void main(String[] args) {
-
-  }
+public class HomeController {
 
   @GetMapping("/")
   public String index(){
