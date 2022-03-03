@@ -4,17 +4,20 @@
 
     <meta charset="UTF-8">
     <link th:href="@{ArtikelStyle.css}" rel="stylesheet" href="../static/ArtikelStyle.css">
+    <link th:href="@{NavBar.css}" rel="stylesheet" href="../static/NavBar.css">
     <title>Title</title>
 </head>
 <body>
 <main class="hero-section">
-    <div>
-        <img src="https://www.irexfo.eu/uploads/food-waste-problem-buckner-290818.jpg" alt="">
-    </div>
     <div class="mainheader">
         <h1 class="maintext">
-            Madgild spar på maden, dit madsvin
+            Madsvin
         </h1>
+    </div>
+    <div class="navbar" id="navbar">
+        <a href="">Hvad er Madspild?</a>
+        <a href="">Iværksætteri</a>
+        <a href="">Sundhed</a>
     </div>
 </main>
 
@@ -36,6 +39,9 @@
                         Danske madsvin
                     </h2>
                     <p class="box-paragraf">
+                        Kantar Gallups seneste undersøgelse for forbrugerbevægelsen Stop Spild Af Mad afslører, at
+                        danskerne vil gerne købe de “grimme” og ukurante grøntsager i supermarkederne - men de skal være
+                        billigere.
                         Kantar Gallups seneste undersøgelse for forbrugerbevægelsen Stop Spild Af Mad afslører, at
                         danskerne vil gerne købe de “grimme” og ukurante grøntsager i supermarkederne - men de skal være
                         billigere.
@@ -78,16 +84,16 @@
                         billigere.
                     </p>
                 </div>
-                <div class="paragraf-box">
-                    <p class="paragraf">
-                        Da jeg var yngre, har jeg i knap 10 år bijobbet som fotomodel bl.a. ved siden af mit studie og
-                        som
-                        grafisk designer. Det var et hyggeligt bijob, men ikke noget, som jeg ville gøre en karriere ud
-                        af.
-                        Jeg var en kommerciel fotomodel, hvilket betød, at jeg var model for alt fra tøj og smykker til
-                        hudpleje, elektronik og tilbudsaviser - altså en slags hverdags-fotomodel.
-                    </p>
-                </div>
+            </div>
+            <div class="paragraf-box">
+                <p class="paragraf">
+                    Da jeg var yngre, har jeg i knap 10 år bijobbet som fotomodel bl.a. ved siden af mit studie og
+                    som
+                    grafisk designer. Det var et hyggeligt bijob, men ikke noget, som jeg ville gøre en karriere ud
+                    af.
+                    Jeg var en kommerciel fotomodel, hvilket betød, at jeg var model for alt fra tøj og smykker til
+                    hudpleje, elektronik og tilbudsaviser - altså en slags hverdags-fotomodel.
+                </p>
             </div>
         </div>
         <footer>
@@ -114,8 +120,8 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="Socials">
-                    <div class="Facebook">
+                <div class="socials">
+                    <div class="facebook">
                         <img src="https://cityfys.dk/wp-content/uploads/2018/09/logo-facebook.png" alt="">
                     </div>
                     <div class="instagram">
@@ -126,7 +132,28 @@
         </footer>
     </div>
 </div>
+<script>
+    //Dette er taget fra: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () {
+        myFunction()
+    };
 
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
 
 </body>
 </html>
