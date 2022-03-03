@@ -4,3 +4,7 @@
     box-sizing: border-box;
     border: 2px solid black;
 }
+.article-img-box img {
+    width: 250px;
+    height: 250px;
+}
