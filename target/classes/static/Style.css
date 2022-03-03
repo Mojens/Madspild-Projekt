@@ -66,21 +66,21 @@ html, body {
     font-size: 14px;
 }
 
-.healthy-diet{
-    width: 300px;
-    padding-left: 1em;
-}
-.e-waste{
-    width: 200px;
-}
-.succesful-businessman{
-    padding-left: 1cm;
-    width: 200px;
-}
-
 .footerLogo2{
+    display: block;
     width: 25%;
 }
 .footerList{
-    display: block;
+    display: inline-block;
+    margin-right: 160px;
+}
+.socialsIcons{
+display: block;
+}
+.footerContent{
+    justify-content: center;
+    display: flex;
+}
+.footerpicture{
+    margin-right: 120px;
 }

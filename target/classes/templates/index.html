@@ -14,33 +14,35 @@
     <a href="sunhed">Sundhed</a>
 </div>
 <div class="wrapper">
-<div class="content">
+    <div class="content">
 
-    <footer class = "footer">
-        <a href="/"> <img src="../static/LogoMadgild.png" class="footerLogo2" th:src="@{LogoMadgild.png}"/></a>
-<div class="footerList">
-    <a href="artikler">Artikler</a>
-    <p></p>
-    <a href="madspild">Hvad er madspild?</a>
-    <p></p>
-    <a href="ivaerksaetteri">Iværksætteri</a>
-    <p></p>
-    <a href="sunhed">Sundhed</a>
-</div>
-        <div class="socialsIcons">
-             <img src="../static/2021_Facebook_icon.svg.png" class="facebookIcon" th:src="@{2021_Facebook_icon.svg.png}"/>
-            <img src="../static/Instagram_logo_2016.svg.png" class="instagramIcon" th:src="@{Instagram_logo_2016.svg.png}"/>
+        <footer class="footer">
+            <div class="footerContent">
 
-        </div>
-    </footer>
-</div>
+                <img width="200px" th:src="@{images/LogoMadgild.png}" class="footerpicture"/>
+                <div class="footerList">
+                    <a class="paragraph" href="artikler">Artikler</a>
+                    <a class="paragraph" href="madspild">Hvad er madspild?</a>
+                    <a class="paragraph" href="ivaerksaetteri">Iværksætteri</a>
+                    <a class="paragraph" href="sunhed">Sundhed</a>
+                </div>
+                <div class="socialsIcons">
+                    <img width="40px" th:src="@{images/2021_Facebook_icon.svg.png}" class="fbicon">
+                    <img width="40px" th:src="@{images/Instagram_logo_2016.svg.png}" class="instagramIcon"/>
+
+                </div>
+            </div>
+        </footer>
+    </div>
 </div>
 
 
 <script>
     //Dette er taget fra: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
     // When the user scrolls the page, execute myFunction
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function () {
+        myFunction()
+    };
 
     // Get the navbar
     var navbar = document.getElementById("navbar");
