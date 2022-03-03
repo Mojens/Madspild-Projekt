@@ -3,7 +3,7 @@
 
 /* Style the navbar */
 #navbar {
-    background-color: white;
+    background-color: #fff9e6;
     overflow: hidden;
     text-decoration: none;
     color: #F5F3ED;
@@ -13,11 +13,13 @@
     letter-spacing: 2px;
     justify-content: center;
     display: flex;
+    margin-right: 190px;
+    margin-left:  190px;
 }
 
 /* Navbar links */
 #navbar a {
-    background-color: white;
+    background-color: #fff9e6;
     float: left;
     display: block;
     color: black;
@@ -36,6 +38,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
