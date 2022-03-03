@@ -29,7 +29,8 @@ html, body {
     text-align: justify;
 }
 .footer{
-    background-color: #FFC107;
+    /* background-color: #FFC107; */
+    background-color: aqua;
     display: flex;
     text-align: center;
     margin: 20px -60px;
