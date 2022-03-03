@@ -1,10 +1,129 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 2px solid black;
 }
+
+.article-img-box {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
 .article-img-box img {
     width: 250px;
     height: 250px;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.mainheader {
+    background-image: url("https://www.irexfo.eu/uploads/food-waste-problem-buckner-290818.jpg");
+    width: 100%;
+    height: 730px;
+    display: flex;
+}
+
+.maintext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    color: #F5F3ED;
+    font-size: 60px;
+}
+
+.small-section-box {
+    display: flex;
+}
+
+.paragraf-box {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.background {
+    width: 100%;
+    background-color: #FFD75E;
+}
+
+.article-background {
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF9E6;
+    padding: 20px 180px;
+}
+
+.paragraf {
+
+    width: 100%;
+}
+
+.paragraf-box {
+    width: 100%;
+    display: inline;
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+}
+
+.summary-box {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+footer{
+    align-content: center;
+    display: flex;
+    width: 100%;
+
+}
+.footer-content {
+    display: flex;
+     justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.facebook img {
+    width: 50px;
+    height: 50px;
+}
+
+.instagram img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+
+}
+.socials {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.second-small-section-box{
+    display: flex;
+    flex-direction: row-reverse;
+
 }
