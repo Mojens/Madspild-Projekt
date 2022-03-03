@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.firstPicture{
+    width: 100%;
+    height: 94vh;
+    background: url("https://cdb.arla.com/api/assets/arla-dk/b353d6bb-b673-4345-afba-f32ed2d7c4ed/2400x1000_6_gode_rad_til_at_undga_madspild_madspild.jpg?width=1280&height=650&mode=cropupsize&quality=90")
+    no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
