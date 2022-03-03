@@ -15,6 +15,8 @@
     display: flex;
     margin-right: 190px;
     margin-left:  190px;
+    box-sizing: border-box;
+
 }
 
 /* Navbar links */
@@ -26,6 +28,8 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+
+
 }
 
 /* Page content */
@@ -36,12 +40,16 @@
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
+    right: 190px;
+    left: 190px;
     top: 0;
-    width: 100%;
+
 
 }
+
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
 }
+

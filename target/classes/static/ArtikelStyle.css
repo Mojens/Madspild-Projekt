@@ -10,14 +10,24 @@
     max-width: 30%;
 }
 
+.hero-section {
+    background-color: #FFD75E;
+
+}
+
 .article-img-box img {
     width: 250px;
     height: 250px;
 }
 
+.second-preview {
+    margin-left: 40px;
+}
+
 body {
     font-family: sans-serif;
-
+    line-height: 1.8;
+    letter-spacing: 0.6px;
 }
 
 .mainheader {
@@ -25,6 +35,14 @@ body {
     width: 100%;
     height: 730px;
     display: flex;
+}
+
+h2 {
+    font-size: 32px;
+
+    font-weight: 900;
+    font-family: Inter, serif;
+
 }
 
 .maintext {
@@ -38,6 +56,11 @@ body {
 
 .small-section-box {
     display: flex;
+    margin-top: 20px;
+}
+
+p {
+    color: #2c2a2a;
 }
 
 .paragraf-box {
@@ -48,22 +71,35 @@ body {
 .background {
     width: 100%;
     background-color: #FFD75E;
+    padding-bottom: 40px;
 
 }
 
 .article-background {
     margin-left: 190px;
     margin-right: 190px;
-    margin-bottom: -40px;
     display: flex;
     flex-wrap: wrap;
     background-color: #FFF9E6;
-    padding: 20px 240px;
+    padding: 20px 240px 40px;
+
 }
 
-.paragraf {
 
+
+.paragraf {
+    margin: 14px 0;
     width: 100%;
+
+}
+
+.box-paragraf {
+    margin: 14px 0;
+
+}
+
+.second-para {
+    padding-right: 20px;
 }
 
 .paragraf-box {
@@ -74,6 +110,10 @@ body {
 .summary {
     display: flex;
     justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #807777;
+
 }
 
 .summary-box {
@@ -155,5 +195,5 @@ li {
 .second-small-section-box{
     display: flex;
     flex-direction: row-reverse;
-
+    margin-top: 60px;
 }
