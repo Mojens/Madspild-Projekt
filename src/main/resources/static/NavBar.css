@@ -1,7 +1,9 @@
 /* Dette er taget fra: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+/* Vi har selv redigeret i det, så det passer til det vi ønsker */
 
 /* Style the navbar */
 #navbar {
+    background-color: white;
     overflow: hidden;
     text-decoration: none;
     color: white;
@@ -9,19 +11,20 @@
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 /* Navbar links */
 #navbar a {
+    background-color: white;
     float: left;
     display: block;
     color: black;
     text-align: center;
-    text-decoration: none;
     padding: 14px;
+    text-decoration: none;
 }
-
 
 /* Page content */
 .content {
