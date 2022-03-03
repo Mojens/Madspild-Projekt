@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #FFD75E;
 
 }
 .firstPicture{
@@ -19,4 +20,32 @@ html, body {
     color: white;
     font-weight: bold;
     font-size: 24px;
+}
+.content{
+    width: 75%;
+    margin-top: 0em;
+    margin-left: 5em;
+    margin-bottom: 3em;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+.footer{
+    width: 100%;
+    background-color: #FFC107;
+    padding-left: 50px;
+    justify-content: center;
+    display: flex;
+
+
+}
+.wrapper{
+    background-color: #FFF9E6;
+    width: 75%;
+    margin: 4em auto;
+    margin-top: 0em;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: -130%;
 }
