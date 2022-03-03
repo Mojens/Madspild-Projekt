@@ -3,7 +3,7 @@
 
 /* Style the navbar */
 #navbar {
-    background-color: white;
+    background-color: #fff9e6;
     overflow: hidden;
     text-decoration: none;
     color: #F5F3ED;
@@ -13,17 +13,23 @@
     letter-spacing: 2px;
     justify-content: center;
     display: flex;
+    margin-right: 190px;
+    margin-left:  190px;
+    box-sizing: border-box;
+
 }
 
 /* Navbar links */
 #navbar a {
-    background-color: white;
+    background-color: #fff9e6;
     float: left;
     display: block;
     color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    margin: 0;
+
 }
 
 /* Page content */
@@ -36,9 +42,17 @@
     position: fixed;
     top: 0;
     width: 100%;
+
+}
+
+.navbar {
+    margin-right: -380px;
+    margin-left:  190px;
+
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
 }
+
