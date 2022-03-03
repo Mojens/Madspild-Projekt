@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Madspild-Projekt" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.example.madspildprojekt.MadspildProjektApplication" />
+    <module name="Madspild-Projekt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
