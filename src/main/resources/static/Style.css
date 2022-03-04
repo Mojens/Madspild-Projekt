@@ -39,7 +39,7 @@ html, body {
 
 .wrapper{
     background-color: #FFF9E6;
-    width: 75%;
+    width: 73.5%;
     font-size: 30px;
     line-height: 30px;
     text-align: justify;
@@ -83,4 +83,80 @@ display: block;
 }
 .footerpicture{
     margin-right: 120px;
+}
+
+footer{
+    display: grid;
+    width: 100%;
+    margin-top: 40px;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    margin-left: -180px;
+    margin-right: -180px;
+    background-color: #FFC107;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.article1picture{
+    width: 300px;
+}
+.article1{
+    padding-top: 40px;
+    display: grid;
+    grid-template: 200px / auto auto auto;
+}
+#article1text{
+    margin-left: 20px;
+}
+.article1button{
+    background-color: #B4CD5E;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+    margin-left: 15em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 0;
+}
+.article2picture{
+    padding-top: 20px;
+    width: 350px;
+}
+.article2{
+    padding-top: 70px;
+    display: grid;
+    grid-template: 200px / auto auto auto;
+}
+#article2text{
+    margin-right: 70px;
+}
+.article2button{
+    background-color: #B4CD5E;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 15em;
+    padding: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 0;
+}
+.article3{
+    padding-top: 70px;
+    display: grid;
+    grid-template: 200px / auto auto auto;
+}
+#article3text{
+    margin-left: 30px;
+}
+.article3button{
+    background-color: #B4CD5E;
+    text-transform: uppercase;
+    color: white;
+    padding: 12 px;
+    margin-left: 15em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 0;
 }
