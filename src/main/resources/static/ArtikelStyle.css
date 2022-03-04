@@ -245,8 +245,8 @@ footer{
 .footer-content {
     display: flex;
     justify-content: center;
-    margin-left: -180px;
-    margin-right: -180px;
+    margin-left: -160px;
+    margin-right: -160px;
     background-color: #FFF9E6;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -311,7 +311,7 @@ li {
 .navigation {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 55%;
     margin-right: 40px;
 
 }
