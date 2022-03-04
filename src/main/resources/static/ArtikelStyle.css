@@ -163,6 +163,44 @@ p {
     margin-top: 15px;
 }
 
+
+
+ul.breadcrumb {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    list-style: none;
+    background-color: #FFF9E6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+    padding-left: 0;
+}
+
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+
 .info {
     display: flex;
     margin-bottom: 10px;
@@ -258,7 +296,7 @@ li {
     font-family: Inter, sans-serif;
 }
 
-li:hover {
+.li-nav:hover {
    background-color: white;
     border-radius: 4px;
 }
