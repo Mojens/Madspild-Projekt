@@ -12,7 +12,8 @@
 
 .hero-section {
     background-color: #FFD75E;
-
+    position: relative;
+    z-index: 1;
 }
 
 .article-img-box img {
@@ -46,13 +47,41 @@ h2 {
 
 }
 
-.maintext {
+
+
+.maintext::before {
+    content: "Bekæmp madspild!";
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 200px;
+    margin-top: 250px;
+    justify-content: start;
+    color: #2f2f2d;
+    font-size: 36px;
+    line-height: 1;
+    background-color: #FFD75E;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+}
+
+
+
+.maintext::after {
+    content: "Vi smider 814.000 ton mad ud om året";
+    display: flex;
     color: #F5F3ED;
     font-size: 60px;
+    line-height: 1;
+    font-family: Inter, sans-serif;
+
+}
+.wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 50%;
 }
 
 .small-section-box {
@@ -76,6 +105,7 @@ p {
     width: 100%;
     background-color: #FFD75E;
     padding-bottom: 40px;
+    z-index: 1;
 
 }
 
@@ -86,6 +116,9 @@ p {
     flex-wrap: wrap;
     background-color: #FFF9E6;
     padding: 20px 240px 40px;
+    margin-top: -80px;
+    position: relative;
+    z-index: 2;
 
 }
 
@@ -117,18 +150,18 @@ p {
     font-size: 18px;
     font-weight: 500;
     color: #807777;
-
+    margin-top: 15px;
 }
-
 
 .info {
     display: flex;
-
+    margin-bottom: 10px;
 
 }
 
 .header-two {
     font-size: 42px;
+    line-height: 1.2;
 }
 
 .category {
@@ -149,7 +182,7 @@ p {
 .summary-box {
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 footer{

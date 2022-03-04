@@ -38,6 +38,11 @@ body {
 
 }
 
+.navi-section {
+    margin-top: -85px;
+
+}
+
 h2 {
     font-size: 32px;
 
@@ -105,6 +110,7 @@ p {
     background-color: #FFD75E;
     padding-bottom: 40px;
 
+
 }
 
 .article-background {
@@ -114,6 +120,7 @@ p {
     flex-wrap: wrap;
     background-color: #FFF9E6;
     padding: 20px 240px 40px;
+
 
 }
 
@@ -177,7 +184,7 @@ p {
 .summary-box {
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 footer{
