@@ -16,8 +16,8 @@
 }
 
 .article-img-box img {
-    width: 250px;
-    height: 250px;
+   width: 100%;
+    height: auto;
 }
 
 .second-preview {
@@ -111,6 +111,7 @@ p {
 .paragraf-box {
     flex: 0 0 70%;
     max-width: 70%;
+    padding-left: 5%;
 }
 
 .background {
