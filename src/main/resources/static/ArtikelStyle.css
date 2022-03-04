@@ -51,12 +51,18 @@ h2 {
 
 }
 
+.logo-nav {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
 
 .maintext::before {
     content: "Bekæmp madspild!";
     display: flex;
-    margin-top: 250px;
+    margin-top: 100px;
     justify-content: start;
     color: #2f2f2d;
     font-size: 36px;
@@ -67,6 +73,7 @@ h2 {
     padding-bottom: 15px;
     padding-left: 20px;
     margin-bottom: 20px;
+    margin-right: 30px;
     font-family: Inter, sans-serif;
 }
 
@@ -96,8 +103,9 @@ h2 {
 
 p {
     font-size: 18px;
-    font-weight: 100;
-    color: #4b4848;
+    font-weight: 500;
+    color: #807777;
+
 }
 
 .paragraf-box {
