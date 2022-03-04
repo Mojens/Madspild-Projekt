@@ -3,7 +3,7 @@
 
 /* Style the navbar */
 #navbar {
-    background-color: #fff9e6;
+    background-color: #FFD75E;
     overflow: hidden;
     text-decoration: none;
     color: #F5F3ED;
@@ -21,7 +21,7 @@
 
 /* Navbar links */
 #navbar a {
-    background-color: #fff9e6;
+    background-color: #FFD75E;
     float: left;
     display: block;
     color: black;
@@ -43,8 +43,10 @@
 .sticky {
     position: fixed;
     top: -10px;
-    right: 190px;
-    left: 190px;
+    right: 0;
+    left: 0;
+    padding-top: 10px;
+
 
 }
 
