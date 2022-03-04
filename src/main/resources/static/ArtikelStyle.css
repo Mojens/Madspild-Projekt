@@ -258,12 +258,17 @@ li {
 
 .navigation {
     display: flex;
-    margin-left: 280px;
-    margin-right: 280px;
+    justify-content: center;
+    width: 60%;
 }
 .socials {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
 }
 .second-small-section-box{
     display: flex;
